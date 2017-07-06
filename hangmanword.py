@@ -4,7 +4,7 @@ class hangmanword():
         print("WELCOME to Hangman- The word guess game")
         print("Guess the coreect word, or be ready to be hanged!")
         print("(1) START GUESSING \n(2) QUIT, I DON'T WANT TO BE HANGED!")
-        user_choice = raw_input("->")
+        user_choice = input("->")
 		
         if user_choice == '1':
             print ("Loading The word that can save your life!")
@@ -31,7 +31,7 @@ class hangmanword():
         progress = ['*','*','*','*','*']
 
         while guesses < 6:
-            guess = raw_input("Guess a letter ->")
+            guess = input("Guess a letter ->")
 
             if (guess in the_word) and (guess not in letters_used):
                 print ("Your guess was RIGHT!")
