@@ -15,7 +15,7 @@ class hangmanword():
 
     def start_game(self):
         print ("A crowd begins to gather, they are all here to see some fun")
-        print ("and judge you on your skills.... All are selfish peeps near you")
+        print ("and judge you on your skills... All are selfish peeps near you")
         print ("And yes you are in a Risky Situation!!!!")
         print ("All are here to enjoy seeing you hanged.")
         print ("got a chance to outwit others")
