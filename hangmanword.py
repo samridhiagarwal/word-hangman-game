@@ -111,9 +111,7 @@ class hangmanword():
         while i < len(the_word):
             if guess == the_word[i]:
                 progress[i] = guess
-                i += 1
-            else:
-                i += 1
+            i += 1
 
         return "".join(progress)
 game = hangmanword()
